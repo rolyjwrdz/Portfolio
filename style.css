@@ -1,0 +1,139 @@
+:root {
+  --bg-dark: #141414;
+  --text-light: #E1E1E1;
+  --tech-blue: #00A3FF;
+  --aqua-green: #00FF8C;
+  --accent-gold: #FFB800;
+}
+
+
+/* Resetting default browser space */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background + font */
+body {
+    font-family: "Press Start 2P", cursive, Arial, sans-serif;
+    background-color: var(--bg-dark);
+    color: #f8f8f6;
+    margin: 0;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 40px 0;
+    color:rgba(239, 191, 0, 0.811) 
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+    color: #9ba1a6;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #1c1c1c;
+  border: 4px solid #00ffea;
+    border-radius: 0;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: 3px dashed #efd808;
+}
+
+h2 {
+  color: #00ffea;
+  text-shadow: 2px 2px #fcd202;
+}
+
+header {
+  text-align: center;
+  background: white;
+  padding: 30px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(239, 191, 0, 0.811);
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  color: #555;
+}
+
+.contact a {
+  display: inline-block;
+  background: #007BFF;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  margin: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.contact a:hover {
+  background: #0056b3;
+}
+
+.project {
+    background: white;
+    color:rgba(114, 113, 110, 0.811);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.navbar {
+  background: #1c1c1c;
+  border-bottom: 4px solid #00ffea;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999; /* stays above everything */
+}
+
+.navbar a {
+  color: #00ffea;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  border: 2px solid #00ffea;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  background: #00ffea;
+  color: #000;
+  box-shadow: 0 0 10px #ded704;
+}
